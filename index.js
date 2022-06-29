@@ -16,3 +16,24 @@ app.get('/account/create/:name/:email/:password', function (req, res) {
         password:   req.params.password
     });
 });
+
+// Login
+
+app.get('/account/login/:email/:password', function (req, res) {
+    res.send({
+        email:      req.params.email,
+        password:   req.params.password
+    });
+});
+
+
+// All accounts function 
+
+app.get('/account/all', function (req, res) {
+    res.send({
+        name:       'peter',
+        email:      'peter@mit.edu',
+        password:   'secret'
+    });
+});
+
