@@ -7,7 +7,7 @@ Description/Motivation: This application was built with the purpose intedned to 
 of a react application to a MongoDB server. The front end will programitacally react with the data you input and the DB will store your credentials
 and balance information. 
 
-Installation Guidelines: Clear instructions on how to get your project up and running (e.g., git clone, git pull, npm init).
+Installation Guidelines: Clone Git with git clone. run npm install. Make sure Cors, express, and mongodb have been installed. Connect to docker with port 10217 by running 
 
 Technology used: React, Express, NodeJS, MongoDB, Javascript, Bootstrap
 
